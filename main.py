@@ -1,1 +1,10 @@
-# 在这个文件下编写代码，题目具体要求见README.md文件
+Weight_str = input("请输入重量：")
+if Weight_str in ["kg"]:
+    pd = (eval(Weight_str[:-2]))*2.2046
+    print("pd")
+elif Weight_str in ["pd"]:
+    pd = (eval(Weight_str[:-2]))/2.2046
+    print("kg")
+else:
+    print("输入格式错误")
+
