@@ -1,4 +1,4 @@
-Weight_str = input("请输入重量：")
+Weight_str = input()
 if Weight_str in ["kg"]:
     pd = (eval(Weight_str[1]))*2.2046
     print("pd")
